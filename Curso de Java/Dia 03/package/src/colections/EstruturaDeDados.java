@@ -55,7 +55,14 @@ public class EstruturaDeDados {
         System.out.println("Queue: "+ MinhaQueue.remove()); // aqui ele imprime o primeiro valor e remove ele da fila "Maria", lança uma exceção se a fila estiver vazia 'erro'
         System.out.println("Queue" + MinhaQueue); // aqui ele imprime todos os valores restantes na fila, que são "Maria" e "Joao"
 
+        // existe ainda o LinkedList que possue algumas outras funcinalidades como addFirst etc.
 
+
+        //Generics -> Tipos parametrizadas, são usadas para garantir a segurança de tipos em tempo de compilação, ou seja,
+        // para evitar erros de tipo em tempo de execução.Assim, eles são facilmente reultilizadas com a tipagem diferente, por exemplo,
+        // se eu quiser criar uma lista de inteiros, eu posso usar List<Integer> minhaLista = new ArrayList<>();
+        // e se eu quiser criar uma lista de strings, eu posso usar List<String> minhaLista = new ArrayList<>();
+        // sem precisar criar uma nova classe para cada tipo de dado que eu quero armazenar.
 
 
     }
